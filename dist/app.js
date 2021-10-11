@@ -7,6 +7,6 @@ const express_1 = __importDefault(require("express"));
 const app = (0, express_1.default)();
 app.listen(3000, () => console.log('Servidor rodando na porta 3000'));
 app.get('/', (req, res) => {
-    res.send('oi');
+    res.send('Oi');
 });
 //# sourceMappingURL=app.js.map
