@@ -1,14 +1,11 @@
-import express from 'express'
+import express from "express";
+import routes from './routes'
 
 const app = express();
+      app.use(routes);
+      app.listen(4000, () => console.log('Servidor rodando na porta 4000'));
 
-app.listen(3000, () => console.log('Servidor rodando na porta 3000'))
 
-app.get('/', (req, res) => {
+
+
   
-  res.send('oid')
-
-
-});
-
-export default app;
