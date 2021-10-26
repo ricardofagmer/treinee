@@ -4,7 +4,7 @@ module.exports = {
     client: 'mysql2',
     connection: {
       host: 'localhost',
-      database: 'treinee',
+      database: 'teste',
       user: 'root',
       password: 'lida@09',
       port: '3306',
